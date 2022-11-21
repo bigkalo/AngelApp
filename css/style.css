@@ -26,6 +26,48 @@ body {
     color: #863A6F !important;
 }
 
+.splashbg {
+    background-color: #863A6F !important;
+}
+
+.splashbgfooter {
+    position: relative;
+    bottom: 3em;
+}
+
+.body100pc {
+    height: 100%;
+    width: 100%;
+}
+
+.body800px {
+    max-height: 800px;
+    width: 100%;
+}
+
+.color-purple {
+    color: #863A6F;
+}
+
+.buttonNext {
+    background-color: #a14a87;
+    color: white;
+    border-radius: 1em;
+    padding: 1em 2em 1em 2em;
+    border: 0;
+    font-size: 1.3em;
+    font-family: AngelAppFont;
+}
+
+.splashCenter {
+    position: relative;
+    top: 50%;
+    font-family: AngelAppFont;
+    padding: 70px 0;
+    text-align: center;
+    background-color: #863A6F !important;
+}
+
 .navbar-dark .navbar-toggler {
     border-color: rgba(255, 255, 255, 0);
 }
