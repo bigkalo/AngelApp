@@ -1,0 +1,110 @@
+/* BASIC */
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    background: #FFDDD2 !important;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: transparent;
+    padding-top: 3em;
+}
+
+.navbar {
+    top: 0;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background: #FF8DC7 !important;
+}
+
+.navbar-brand {
+    font-family: AngelAppFont;
+    font-size: 1.5rem !important;
+    color: #863A6F !important;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: #FFCD00 0 0 0 0.1rem !important;
+}
+
+.bg-eu {
+    background-color: #FFDDD2;
+}
+
+main {
+    max-width: 414px;
+    margin: auto;
+    padding: 2em;
+    background: #FFDDD2;
+}
+
+hr.location {
+    border: 1px solid turquoise;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.video {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* CUSTOM FONTS */
+
+.text-cyan {
+    color: turquoise;
+}
+
+.text-location {
+    margin-bottom: 0px !important;
+}
+
+@font-face {
+    font-family: AngelAppFont;
+    src: url(../fonts/CaviarDreams.ttf);
+}
+
+
+/* FLICKITY */
+
+.featured-img {
+    width: 100%;
+}
+
+.gallery {
+    background: transparent;
+}
+
+.gallery-cell {
+    width: 90%;
+    margin-right: 10px;
+    background: transparent;
+    counter-increment: gallery-cell;
+    overflow: hidden;
+}
+
+.new-feed {
+    width: 90%;
+}
+
+.card-img-top {
+    max-height: 90vw !important;
+    overflow: hidden !important;
+}
+
+.bg-footer {
+    background-color: #FFACC7;
+}
