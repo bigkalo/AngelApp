@@ -219,7 +219,7 @@ a {
 .iyaCard {
     margin: auto;
     background: #863A6F;
-    box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2), -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+    box-shadow: 3px 3px 7px 0 rgba(0, 0, 0, 0.2), -4px -4px 9px 0 #f0c3b4ec;
     border-radius: 2em;
     padding: 4px 30px 20px;
     min-height: 380px;
@@ -230,7 +230,7 @@ a {
 .iyaCardImg {
     margin: auto;
     background: #ffffff00;
-    box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2), -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+    box-shadow: 3px 3px 7px 0 rgba(0, 0, 0, 0.2), -4px -4px 9px 0 #f0c3b4ec;
     border-radius: 2em;
     padding: 0px 0px 0px 0px;
     max-width: 90%;
